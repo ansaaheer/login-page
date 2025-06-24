@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IBS Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Open Sans', sans-serif; color: #333; line-height: 1.6; }
+    header, footer, section { padding: 40px 20px; }
+    .navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 999; }
+    .nav-links { display: flex; gap: 20px; }
+    .nav-links a { text-decoration: none; color: #333; font-weight: 600; }
+    .hero { background: linear-gradient(to right, #2c3e50, #3498db); color: #fff; padding: 100px 20px; text-align: center; }
+    .hero h1 { font-size: 3rem; margin-bottom: 20px; }
+    .section-title { text-align: center; margin-bottom: 30px; font-size: 2rem; }
+    .services, .expertise, .process, .clients { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .card { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 250px; text-align: center; }
+    .clients img { width: 100px; filter: grayscale(100%); opacity: 0.8; }
+    .cta { text-align: center; background: #f1f1f1; padding: 60px 20px; }
+    .cta button { background: linear-gradient(to right, #2c3e50, #3498db); color: #fff; padding: 12px 30px; border: none; border-radius: 30px; font-size: 1rem; cursor: pointer; }
+    footer { background: #333; color: #fff; display: flex; justify-content: space-around; flex-wrap: wrap; }
+    footer div { margin: 10px; }
+    footer a { color: #ccc; text-decoration: none; display: block; margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div><strong>IBS</strong></div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">What We Do</a>
+      <a href="#">Blog</a>
+      <a href="#">Contacts</a>
+      <a href="#" style="border: 1px solid #3498db; padding: 5px 15px; border-radius: 20px;">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>We build an awesome software</h1>
+    <p>We provide business and technology solutions that are directly related to our customers business strategy.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">What we do?</h2>
+    <div class="services">
+      <div class="card">Web Development</div>
+      <div class="card">API Development & Integration</div>
+      <div class="card">Project Management</div>
+      <div class="card">Security & Privacy</div>
+    </div>
+  </section>
+
+  <section style="background:#f9f9f9;">
+    <h2 class="section-title">Areas of Expertise</h2>
+    <div class="expertise">
+      <div class="card">Business Applications</div>
+      <div class="card">Enterprise Applications</div>
+      <div class="card">Prototyping</div>
+      <div class="card">Website</div>
+      <div class="card">Mobile</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Our Process</h2>
+    <div class="process">
+      <div class="card">Concept</div>
+      <div class="card">Design & Estimation</div>
+      <div class="card">Development & Integration</div>
+      <div class="card">Test & Launch</div>
+    </div>
+  </section>
+
+  <section class="clients">
+    <h2 class="section-title">Our Happy Clients</h2>
+    <div class="clients">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Have a Project in Mind?</h2>
+    <button>Get Started!</button>
+  </section>
+
+  <footer>
+    <div>
+      <h3>About Us</h3>
+      <p>IBS Solutions is software development and consulting company located in Vancouver Metro Area.</p>
+    </div>
+    <div>
+      <h3>Subscribe</h3>
+      <input type="email" placeholder="Enter your email">
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">What we do</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Contacts</a>
+    </div>
+  </footer>
+</body>
+</html>
